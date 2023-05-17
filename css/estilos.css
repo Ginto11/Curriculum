@@ -1,0 +1,153 @@
+:root{
+    --color-titulos: #8F63DE;
+}
+
+.titulo{
+    color: var(--color-titulos);
+    margin-bottom: 15px;
+    background-color: #0004;
+    padding: 10px 0;
+    text-indent: 15px;
+    border-radius: 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: #292F36;
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 7px;
+    background-color: #8F63DE;
+    border-radius: 3px;
+}
+
+body{
+    background-color: #292F36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #0004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #000;
+    top: 0;
+}
+
+header h1{
+    color: var(--color-titulos);
+    font-weight: bold;
+    text-shadow: 0 0 3px #000;
+}
+
+section {
+    width: 70%;
+}
+
+.datos-basicos{
+    width: 70%;
+}
+
+.datos-basicos{
+    background-color: #0004;
+    border-radius: 5px;
+    text-indent: 15px;
+    padding: 10px 0;
+    color: var(--color-titulos);
+    text-shadow: 0 0 3px #000;
+}
+
+.perfil {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil div {
+    width: 50%;
+}
+
+.perfil .contenedor-foto{
+    width: 300px;
+}
+
+.perfil .contenedor-foto .foto{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.perfil .contenedor-descripcion .texto{
+    color: #DADAD9;
+    text-align: justify;
+}
+
+.lista, .lista-habilidades{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #DADAD9;
+}
+
+ .lista h3{
+    color: var(--color-titulos);
+    text-shadow: 0 0 3px #000;
+}
+
+.lista p{
+    color: #DADAD9;
+    text-align: justify;
+}
+
+.lista *{
+    margin: 5px 0;
+}
+
+.contenedor--logos{
+    margin: 5px;
+    padding: 3px;
+    width: 50px;
+    position: fixed;
+    top: 40%;
+    bottom: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.contenedor--logos a {
+    width: 100%;
+}
+
+.contenedor--logos a:hover{
+    filter: drop-shadow(0 0 3px #000);
+    transform: rotate(360deg);
+    transition: .6s ease-in-out all;
+}
+
+.contenedor--logos a img{
+    width: 100%;
+}
+
+.habilidades{
+    margin-bottom: 30px;
+}
