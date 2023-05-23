@@ -151,3 +151,23 @@ section {
 .habilidades{
     margin-bottom: 30px;
 }
+
+
+/*@media (max-width: 700px) {
+    .perfil {
+        width: 90%;
+    }
+}*/
+
+
+@media screen and (max-width: 930px){
+    .datos-basicos, .perfil, .experiencia, .formacion {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .datos-basicos, .perfil, .experiencia, .formacion {
+        width: 90%;
+    }
+}
